@@ -23,7 +23,7 @@ from akamai.netstorage import Netstorage, NetstorageError
 from akamai.edgegrid import EdgeGridAuth
 
 
-def purgeURL(CP=None):
+def purgeCPCode(CP=None):
 
 
     #Fetch Credentials from Env Variables from AWS
@@ -87,11 +87,9 @@ def getObjectFromS3(bucket, path, file):
 
 def run(event=None, context=None):
 
-     return {"NetStorageUpload":uploadToNS(), "PurgeRequest":purgeURL(832468)
+     return {"NetStorageUpload":uploadToNS(), "PurgeRequest":purgeCPCode(832468)
 
     }
-
-run()
 
 
 
