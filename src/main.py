@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 #TODO: 
 
-# Pending #####
+# Recommendaitions!!
 # Add validation to ensure file was downloaded succesfully
 # Add AWS Loggin to all parts of Script https://docs.aws.amazon.com/lambda/latest/dg/python-logging.html
 # Add SNS/Email Notication For Successful or On Error of Script
 # Exactract KeyName from s3 Event
+# Recommendaitions!!
 
 
 #Notes: #####
