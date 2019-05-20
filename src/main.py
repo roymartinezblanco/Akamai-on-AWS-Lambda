@@ -60,7 +60,7 @@ def uploadToNS():
     NS_HOSTNAME = os.environ['NS_HOSTNAME']
     NS_KEYNAME = os.environ['NS_KEYNAME']
     NS_KEY = os.environ['NS_KEY']
-    NS_CP = os.environ['NS_CP']
+    
 
     getObjectFromS3(S3_Bucket,S3_Path,S3_File)
 
@@ -86,8 +86,8 @@ def getObjectFromS3(bucket, path, file):
     return True
 
 def run(event=None, context=None):
-
-     return {"NetStorageUpload":uploadToNS(), "PurgeRequest":purgeCPCode(832468)
+     NS_CP = os.environ['NS_CP']
+     return {"NetStorageUpload":uploadToNS(), "PurgeRequest":purgeCPCode(NS_CP)
 
     }
 
