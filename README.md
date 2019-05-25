@@ -15,3 +15,15 @@ We will do this using an example use case and we will be using the following lib
 
 ## Disclaimer
 **Keep in mind that is meant to be a sample script to build on top of, it is functional but it by no means cover every single scenario.**
+
+# License
+
+I am providing code and resources in this repository to you under an open source license. Because this is my personal repository, the license you receive to my code and resources is from me and not my employer (Akamai).
+
+```
+Copyright 2019 Roy Martinez
+
+Creative Commons Attribution 4.0 International License (CC BY 4.0)
+
+http://creativecommons.org/licenses/by/4.0/
+```
